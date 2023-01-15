@@ -9,9 +9,7 @@ namespace FizzBuzz
     internal class GameLogic
     {
         public string StartGame(int userNumber)
-        {
-            
-
+        {        
             if (userNumber % 3 == 0 && userNumber % 5 == 0)
             {
                 return "FizzBuzz";
@@ -23,7 +21,6 @@ namespace FizzBuzz
             else if (userNumber % 3 == 0)
             {
                 return "Fizz";
-
             }
             return userNumber.ToString();
         }
